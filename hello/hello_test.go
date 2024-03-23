@@ -1,6 +1,8 @@
-package learnGoWithTests
+package hello
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestHello(t *testing.T) {
 	got := Hello("world")
